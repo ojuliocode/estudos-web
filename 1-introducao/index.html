@@ -1,4 +1,53 @@
 <!-- Para criar um arquivo html, a primeira coisa que precisamos fazer é colocar a extensão .html nele-->
 <!-- Esta linha abaixo especifica para o browser que estamos utilizando a versão 5 do html-->
 <!DOCTYPE html>
+<!-- A tag html é a que envolve todo o nosso código -->
+<html>
+<!-- A tag head especifica qualquer coisa que não vamos renderizar -->
 
+<head>
+    <!-- A tag meta serve para passar meta-informações para o browser -->
+    <meta charset="utf-8">
+    <title> Minha página web </title>
+</head>
+<!-- A tag body especifica todo o conteúdo visual do nosso site -->
+
+<body>
+    <!-- Este texto de exemplo, por mais que temos uma quebra de linha, ele irá ficar comprimido -->
+    1. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    2. Vel corrupti sapiente hic quia, pariatur, cum architecto perspiciatis ullam quis distinctio labore.
+    Iure magnam minima ullam accusantium fuga iste, animi omnis?
+
+    <!-- Quando especificamos um parágrafo, ele automaticamente irá gerar uma quebra de linha -->
+    <p>
+        1. Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+    </p>
+    <p>
+        2. Inventore, cumque. Sint nobis dicta excepturi enim vel corrupti, laboriosam ducimus voluptatibus, commodi
+        similique minima reprehenderit nam ad ea ex. Voluptate, velit.
+    </p>
+
+    <!-- A tag h especifica um titulo. Os titulos vão desde o h6 (menor) até o h1 (maior)-->
+    <h6> Titutlo menor </h6>
+    <!-- ... -->
+    <!-- Uma boa prática é sempre colocar apenas um h1 por página, para que seja o título principal da sua página -->
+    <h1> Titulo maior </h1>
+
+    <!-- Também é possível utilizar ênfases no texto -->
+    <!-- É uma boa prática utilizar as ênfases ao invés do texto em negrito. Isso irá ajudar aos leitores de tela darem ênfases aos textos -->
+    <p> Lorem ipsum dolor <strong>sit amet </strong> consectetur adipisicing elit. <em>Ullam voluptatibus</em> similique
+        est iure. </p>
+    
+    <!-- O Nesting é quando temos um elemento html dentro de outro -->
+    <div>
+        <!-- A tag div (que vamos ver mais a frente) é a tag pai dos dois parágrafos
+        isso porque a div está envolvendo estes dois parágrafos. Neste caso, eles são 
+        filhos da div -->
+        <p> Este parágrafo é filho da div </p>
+        <!-- Para dar ênfase na relação de pai e filho, nós colocamos uma identação no filho. A identação
+        é quando colocamos um espaço antes do elemento -->
+        <p> Este parágrafo é filho da div </p>
+    </div>
+</body>
+
+</html>
