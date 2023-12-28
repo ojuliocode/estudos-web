@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cascade</title>
+</head>
+<body>
+    <h1 class="destaque"> Prioridade de estilos no CSS</h1>
+    <p id="principal" class="paragrafo unico"> Neste capítulo vamos ver um pouco sobre quais estilos têm prioridade</p>
+    <p class="verde bold" id="prioritario"> Este paragrafo testa as prioridades </p>
+    <!-- No exemplo abaixo, o primeiro estilo tem prioridade
+    Isso acontece porque ele é mais específico (tem uma quantidade
+    maior de seletores)-->
+    <!-- A quantidade de seletores é um fator para determinar a prioridade -->
+    <!-- A prioridade geral dos seletores é a seguinte
+    1. ID - mais prioritario
+    2. Classe - medio 
+    3. Tag - baixo 
+    -->
+    <style>
+        body .paragrafo{
+            color: blue;
+        }
+        .unico{
+            color: red;
+        }
+        p{
+            color: orange
+        }
+    </style>
+    <!--
+        No exemplo abaixo, podemos ver que o ID teve mais prioridade que as duas classes
+    -->
+    <style>
+        .verde {
+            background-color: green;
+        }
+
+        .bold {
+            font-weight: bold;
+        }
+
+        #prioritario {
+            background-color: red;
+            font-weight: 100;
+        }
+    </style>
+</body>
+</html>
