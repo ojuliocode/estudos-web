@@ -1,0 +1,15 @@
+* {
+    border: 1px solid red;
+    font-family: sans-serif;
+    border-radius: 10px;
+}
+
+span{
+    display: inline;
+    margin-top: 200px;
+    margin-left: 100px;
+}
+
+.inline-flex{
+    display: inline-flex;
+}
