@@ -1,0 +1,26 @@
+* {
+    font-family: sans-serif;
+}
+
+.flex-pai{
+    display: flex;
+    border: 1px solid blue;
+    justify-content: space-around;
+    align-items: center;
+    height: 200px;
+}
+
+.flex-pai div{
+    padding: 10px;
+    flex: 1;
+    text-align: center;
+    
+}
+
+.flex-pai2 {
+    display: flex;
+}
+
+.flex-pai2 div {
+    border: 1px solid green;
+}
