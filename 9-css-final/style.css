@@ -39,7 +39,7 @@
 }
 
 .quote-text{
-    font-size: 36px;
+    font-size: 24px;
     font-weight: lighter;
     color: #1F2937;
     font-style: italic;
@@ -92,4 +92,39 @@ a{
     padding: 2px 20px 2px 20px;
     border-radius: 7px;
     cursor: pointer;
+}
+
+.carousel {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.carousel div div{
+    height: 150px;
+    width: 150px;
+    background-color: white;
+    border: 3px solid #3882F6;
+    border-radius: 14px;
+}
+
+.carousel-container {
+    background-color: white;
+    text-align: center; 
+    padding: 200px;
+}
+
+.carousel-container h3 {
+    padding: 20px;
+}
+
+.quote {
+    display: flex;
+    justify-content: center;
+    padding: 150px;
+    align-items: center;
+    flex-direction: column;
+}
+
+.quote p {
+    max-width: 450px;
 }
